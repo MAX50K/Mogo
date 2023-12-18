@@ -10,6 +10,7 @@ body {
 
 .header {
 }
+
 .header__logo {
   color: var(--logo-color);
   font-size: 30px;
@@ -18,12 +19,18 @@ body {
   line-height: normal;
 }
 .header__nav {
+  align-items: center;
+  display: flex;
 }
 .header-nav__list {
+  display: flex;
+  gap: 50px;
 }
 .header-nav__item {
 }
 .header-nav__link {
+  display: flex;
+  justify-content: center;
 }
 .services {
 }
@@ -42,11 +49,13 @@ body {
 .works__list {
 }
 .works__item {
+  
 }
 .works__subtitle {
   font-family: "Montserrat", sans-serif;
 }
 .works__text {
+  
 }
 .team {
 }
@@ -63,6 +72,8 @@ body {
   font-weight: 700;
   line-height: normal;
   font-variant: all-small-caps;
+  display: flex;
+  justify-content: center;
 }
 .team__subtext {
 }
@@ -86,5 +97,7 @@ body {
 }
 .footer-form__input {
 }
+
 .footer-form__button {
+  color: rgb(98, 230, 98);
 }
