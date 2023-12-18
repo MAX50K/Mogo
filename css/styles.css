@@ -4,34 +4,49 @@
   --title-color: #333;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .header {
+  padding-top: 32px;
 }
 
 .header__logo {
   color: var(--logo-color);
   font-size: 30px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 .header__nav {
-  align-items: center;
-  display: flex;
 }
 .header-nav__list {
   display: flex;
   gap: 50px;
 }
 .header-nav__item {
+  color: var(--logo-color);
 }
 .header-nav__link {
-  display: flex;
-  justify-content: center;
 }
+
+.header-nav__link:hover,
+.header-nav__link:focus {
+  color: #f38181;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
 .services {
 }
 .services__text {
@@ -49,13 +64,13 @@ body {
 .works__list {
 }
 .works__item {
-  
 }
 .works__subtitle {
   font-family: "Montserrat", sans-serif;
 }
 .works__text {
-  
+  display: flex;
+  flex-wrap: wrap;
 }
 .team {
 }
@@ -82,6 +97,7 @@ body {
 .team-members__list {
 }
 .team-members__img {
+  flex-wrap: wrap;
 }
 .team-member__name {
 }
