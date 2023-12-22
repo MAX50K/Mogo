@@ -48,27 +48,58 @@ body {
 }
 
 .services {
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
+
+.services .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .services__text {
-  font-family: "Kaushan Script", sans-serif;
+  font-family: "Kaushan Script";
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .services__title {
-  font-family: "Montserrat Bold", sans-serif;
+  font-family: "Montserrat Bold";
   display: flex;
   justify-content: center;
+  font-variant: all-small-caps;
 }
 .works {
+  margin-bottom: 100px;
 }
 .works__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
 }
 .works__item {
+  flex-basis: calc((100% - 3 * 60px) / 3);
 }
 .works__subtitle {
-  font-family: "Montserrat", sans-serif;
+  display: flex;
+  font-family: "Montserrat";
+  font-weight: 500px;
+  font-variant: small-caps;
+  color: #333;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  font-variant: small-caps;
+  margin-bottom: 20px;
 }
 .works__text {
+  color: #b6b6b6;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 146.667%;
   display: flex;
   flex-wrap: wrap;
 }
