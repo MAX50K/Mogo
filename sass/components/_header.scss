@@ -1,0 +1,30 @@
+.header {
+  padding-top: 32px;
+
+  & .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    color: $logo-color;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  &-nav__list {
+    display: flex;
+    gap: 50px;
+  }
+  &-nav__item {
+    color: $logo-color;
+  }
+
+  &-nav__link:hover,
+  &-nav__link:focus {
+    color: #f38181;
+    font-family: "Montserrat";
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,28 @@
+.team {
+
+    &__text {
+        font-family: "Kaushan Script", sans-serif;
+        display: flex;
+        justify-content: center;
+      }
+      &__title {
+        font-family: "Montserrat Bold", sans-serif;
+        color: $title-color;
+        font-size: 30px;
+        font-weight: 700;
+        font-variant: all-small-caps;
+        display: flex;
+        justify-content: center;
+      }
+      &__subtext {
+      }
+      &-members {
+      }
+      &-members__list {
+      }
+      &-members__img {
+        flex-wrap: wrap;
+      }
+}
+
+

@@ -1,0 +1,15 @@
+// UTILS
+@import "./utils/variables";
+@import "./utils/placeholders";
+
+// BASE
+@import "./base/common";
+@import "./base/container";
+@import "./base/reset";
+
+// COMPON
+@import "./components/header";
+@import "./components/footer";
+@import "./components/team";
+@import "./components/services";
+@import "./components/header";

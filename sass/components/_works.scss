@@ -1,0 +1,42 @@
+.works {
+    margin-bottom: 100px;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 60px;
+      }
+      &__item {
+        flex-basis: calc((100% - 3 * 60px) / 3);
+      }
+      
+      &__icon{
+        width: 37px;
+        height: 37px;
+        fill: #95E1D3;
+      }
+      
+      &__subtitle {
+        display: flex;
+        font-family: "Montserrat";
+        font-weight: 500px;
+        font-variant: small-caps;
+        color: #333;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 400;
+        font-variant: small-caps;
+        margin-bottom: 20px;
+      }
+      &__text {
+        color: #b6b6b6;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 146.667%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+  }
+  
